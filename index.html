@@ -1,0 +1,24 @@
+
+<!doctype html>
+<html>
+    <meta charset="utf-8" />
+    <head>
+        <title>Currency</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+  <body>
+         
+           <div class="BarChart-title"> Currency Exchange Rates (Base EUR) </div>
+           <div class="BarChartInput">
+           <h1>Please enter a date on or after January, 4, 1998 to see the exchange rate:</h1>
+           <input type="text" id="month" placeholder="Month mm"/>
+           <input type="text" id="day" placeholder="Day dd"/>
+           <input type="text" id="year" placeholder="Year yyyy"/>
+           <input type="submit" value="Submit" onClick="fetchCurrencyRatesByDate()">
+          </div> 
+           <div id="graph">
+    
+          </div>
+    <script src = "./js/main.js"></script>
+  </body>
+</html>
